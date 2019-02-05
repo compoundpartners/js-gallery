@@ -81,7 +81,7 @@ class SlidePlugin(CMSPlugin):
     cmsplugin_ptr = CMSPluginField()
     image = FilerImageField(verbose_name=_('image'), blank=True, null=True)
     content = HTMLField("Content", blank=True, null=True)
-    url = models.URLField(_("Link"), blank=True, null=True)
+    url = models.CharField(_("Link"), max_length=255, blank=True, null=True)
     page_link = PageField(
         verbose_name=_('Page'),
         blank=True,

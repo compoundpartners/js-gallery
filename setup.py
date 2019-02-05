@@ -23,12 +23,12 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='aldryn-gallery',
+    name='js-gallery',
     version=__version__,
     description='Gallery',
-    author='Divio AG',
-    author_email='info@divio.ch',
-    url='https://github.com/aldryn/aldryn-gallery',
+    author='Compound Partners Ltd',
+    author_email='hello@compoundpartners.co.uk',
+    url='https://github.com/compoundpartners/js-gallery',
     packages=find_packages(),
     license='LICENSE.txt',
     platforms=['OS Independent'],

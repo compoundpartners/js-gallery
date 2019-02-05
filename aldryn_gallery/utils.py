@@ -1,3 +1,4 @@
+import six
 from django.conf import settings
 
 
@@ -8,7 +9,7 @@ def get_additional_styles():
     choices = []
     raw = getattr(settings, 'GALLERY_STYLES', False)
     if raw:
-        if isinstance(raw, basestring):
+        if isinstance(raw, six.string_types):
             raw = raw.split(',')
         for choice in raw:
             clean = choice.strip()

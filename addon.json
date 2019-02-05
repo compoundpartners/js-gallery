@@ -1,5 +1,5 @@
 {
-    "package-name": "aldryn-gallery",
+    "package-name": "js-gallery",
     "installed-apps": [
         "djangocms_text_ckeditor",
         "filer",
